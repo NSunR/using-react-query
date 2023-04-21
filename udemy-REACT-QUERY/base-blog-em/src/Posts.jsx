@@ -18,6 +18,7 @@ export function Posts() {
   const data = [];
 
   return (
+    //5.이 Post컴포넌트에는 state와 button이 있어, 각 기능을 구현할 때 같이 볼거야.
     <>
       <ul>
         {/*1. 게시물 데이터를 매핑하는 곳 */}
