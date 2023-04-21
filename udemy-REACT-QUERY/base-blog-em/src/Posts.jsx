@@ -26,7 +26,7 @@ export function Posts() {
           <li
             key={post.id}
             className="post-title"
-            onClick={() => setSelectedPost(post)}
+            onClick={() => setSelectedPost(post)} //4. onclick은 나중에 살펴보기.
           >
             {post.title}
           </li>
